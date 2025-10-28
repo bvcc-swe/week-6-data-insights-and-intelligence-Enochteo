@@ -110,7 +110,7 @@ const InsightsPanel = ({
         console.error(err);
         const msg = err?.message || "Failed to generate AI insight";
         setErrorMessage(msg);
-        // show a toast so users notice the failure
+        // show a toast so users notice the failures
         toast({
           title: "AI request failed",
           description: msg,
